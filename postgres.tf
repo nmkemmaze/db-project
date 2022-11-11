@@ -20,7 +20,7 @@ resource "aws_db_instance" "testdb" {
 */
 
 resource "aws_db_instance" "default" {
-  allocated_storage   = 40
+  allocated_storage   = 20
   engine              = "postgres"
   identifier          = "testdb"
   engine_version      = "13"
